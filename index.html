@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,30 +10,39 @@
     <link href="tailwind.css" rel="stylesheet" type="text/css">
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    <main class="h-screen bg-green-600 text-white text-center flex-col content-center">
-        <div class="whatsapp_logo">
-            <div class="p-8 outline-white w-48">
-                <i class="fab fa-whatsapp text-9xl logo p-8 outlne-white"></i>
+    <main class="h-screen bg-gradient-to-r from-green-600 to-green-500 text-white text-center">
+        <div class="whatsapp_logo max-w-full">
+            <div class="" id="logo-div">
+                <i class="fab fa-whatsapp text-9xl outlne-white"></i>
             </div>
         </div>
+
         <div class="package_info">
-            <p class="textx-sm">
-                This is an unofficial package of whatsap pp
-                as a Progressive Web App primarily created
+            <p class="textx-sm font-semibold">
+                This is an unofficial package of whatsapp 
+                as a Progressive Web App primarily created 
                 for Linux users.
             </p>
+        </div>
 
-            <p class="text-sm">
-                This is a <a href="https://web.dev/pwa">PWA</a>
-                and needs to be run in PWA supported brower
+        <div class="notif bg-black p-8 w-24 md:w-auto rounded-lg">
+            <p class="text-sm font-semibold">
+                This is a
+                <a href="https://web.dev/pwa">PWA</a>
+                and needs to be run in a 
+                <a href="">PWA supported browser</a> 
                 to be installed on your device.
             </p>
+        </div>
 
-            <p class="text-xs">
+        <div class="version self-end">
+            <p class="text-xs font-semibold">
                 version 0.1.0.
             </p>
         </div>
     </main>
 </body>
+
 </html>
